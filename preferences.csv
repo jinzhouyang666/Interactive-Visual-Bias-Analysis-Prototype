@@ -1,6 +1,0 @@
-Image_ID,Preferred,Less_Preferred,Reason
-img5,Human,LLaMA-4,Human feedback highlights gender imbalance and colonial fantasy. LLaMA-4 describes composition without addressing power dynamics.
-img1,Human,Encord,Human points out symbolic colonial framing; Encord focuses only on outfit and posture.
-img2,Human,LLaMA-4,Human detects cultural mismatch from search term; LLaMA-4 ignores the gender misalignment.
-img3,Human,Encord,Human highlights racial invisibility; Encord offers a structural scene description with no critical awareness.
-img4,Human,LLaMA-4,Human interprets symbolic class messaging; LLaMA-4 focuses only on visual elements like attire and scroll.

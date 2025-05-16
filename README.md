@@ -29,21 +29,7 @@ Images are retrieved from the [Rijksmuseum](https://www.rijksmuseum.nl) using cu
 - `data/annotations.csv`: Structured comparison of human and AI annotations
 - `data/preferences.csv`: Pairwise human feedback preferences for RLHF/DPO simulation
 
-## 🔁 Preview
-
-![Feedback Flowchart](interactive_feedback_flowchart.png)
-
-1. User views an image from a museum collection.
-2. The system generates a caption using a VLM.
-3. User provides preference feedback (e.g., “too neutral”, “missed gender bias”).
-4. Feedback is logged as pairwise training data.
-5. The model adapts to future bias-aware output generation.
-
-This project proposes a shift from universal labeling to adaptive, user-centered bias recognition. It is designed to demonstrate how cultural AI systems can benefit from feedback loops that respect historical representation's interpretive, subjective nature.
-
-## 📎 Use in PhD Application
-
-This prototype was developed as part of a PhD application exploring bias mitigation and personalization methods in human-AI interaction for cultural heritage. It offers a practical demonstration of methodological contributions in the intersection of:
+This prototype was developed to explore bias mitigation and personalization methods in human-AI interaction for cultural heritage. It offers a practical demonstration of methodological contributions in the intersection of:
 
 - Bias-aware AI
 - Vision-language systems
